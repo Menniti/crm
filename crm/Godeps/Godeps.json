@@ -1,0 +1,221 @@
+{
+	"ImportPath": "github.com/menniti/crm",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Unknwon/com",
+			"Comment": "v1-13-g7677a1d",
+			"Rev": "7677a1d7c1137cd3dd5ba7a076d0c898a1ef4520"
+		},
+		{
+			"ImportPath": "github.com/Unknwon/i18n",
+			"Rev": "b64d336589669d317928070e70ba0ae558f16633"
+		},
+		{
+			"ImportPath": "github.com/beorn7/perks/quantile",
+			"Rev": "4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9"
+		},
+		{
+			"ImportPath": "github.com/bradfitz/gomemcache/memcache",
+			"Comment": "release.r60-46-g1952afa",
+			"Rev": "1952afaa557dc08e8e0d89eafab110fb501c1a2b"
+		},
+		{
+			"ImportPath": "github.com/felipeweb/gopher-utils",
+			"Rev": "05a00fc86ef51b7b351fb05a0e13307c85dbe115"
+		},
+		{
+			"ImportPath": "github.com/go-floki/jade",
+			"Rev": "709925beb63a6eb71cb11403b71693fb5f206a29"
+		},
+		{
+			"ImportPath": "github.com/go-floki/jade/parser",
+			"Rev": "709925beb63a6eb71cb11403b71693fb5f206a29"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/binding",
+			"Rev": "ac54ee249c27dca7e76fad851a4a04b73bd1b183"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/cache",
+			"Rev": "56173531277692bc2925924d51fda1cd0a6b8178"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/cache/memcache",
+			"Rev": "56173531277692bc2925924d51fda1cd0a6b8178"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/cache/redis",
+			"Rev": "56173531277692bc2925924d51fda1cd0a6b8178"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/gzip",
+			"Rev": "cad1c6580a07c56f5f6bc52d66002a05985c5854"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/i18n",
+			"Rev": "ef57533c3b0fc2d8581deda14937e52f11a203ab"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/inject",
+			"Rev": "d8a0b8677191f4380287cfebd08e462217bac7ad"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/jade",
+			"Rev": "65ef729dab628a7efd25e25977658d3c2e207e92"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/session",
+			"Rev": "b8e286a0dba8f4999042d6b258daf51b31d08938"
+		},
+		{
+			"ImportPath": "github.com/go-macaron/toolbox",
+			"Rev": "6766b8f16d1b135b250f09ba4dc4e24ab65b1107"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.3-53-g2cc627a",
+			"Rev": "2cc627ac8defc45d65066ae98f898166f580f9a4"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "c65a0412e71e8b9b3bfd22925720d23c0f054237"
+		},
+		{
+			"ImportPath": "github.com/jmoiron/sqlx",
+			"Comment": "sqlx-v1.1-131-g05cef07",
+			"Rev": "05cef0741ade10ca668982355b3f3f0bcf0ff0a8"
+		},
+		{
+			"ImportPath": "github.com/jmoiron/sqlx/reflectx",
+			"Comment": "sqlx-v1.1-131-g05cef07",
+			"Rev": "05cef0741ade10ca668982355b3f3f0bcf0ff0a8"
+		},
+		{
+			"ImportPath": "github.com/klauspost/compress/flate",
+			"Comment": "v1.2.1-12-gb88785b",
+			"Rev": "b88785bfd699aa994985ea91b90ee8a1721c3fe1"
+		},
+		{
+			"ImportPath": "github.com/klauspost/compress/gzip",
+			"Comment": "v1.2.1-12-gb88785b",
+			"Rev": "b88785bfd699aa994985ea91b90ee8a1721c3fe1"
+		},
+		{
+			"ImportPath": "github.com/klauspost/cpuid",
+			"Comment": "v1.1-2-gae832f2",
+			"Rev": "ae832f27941af41db13bd6d8efd2493e3b22415a"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "go1.0-cutoff-201-g19c8e9a",
+			"Rev": "19c8e9ad00952ce0c64489b60e8df88bb16dd514"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/oid",
+			"Comment": "go1.0-cutoff-201-g19c8e9a",
+			"Rev": "19c8e9ad00952ce0c64489b60e8df88bb16dd514"
+		},
+		{
+			"ImportPath": "github.com/matttproud/golang_protobuf_extensions/pbutil",
+			"Comment": "v1.0.0-2-gc12348c",
+			"Rev": "c12348ce28de40eed0136aa2b644d0ee0650e56c"
+		},
+		{
+			"ImportPath": "github.com/prometheus/client_golang/prometheus",
+			"Comment": "v0.9.0-pre1-29-g06bc6e0",
+			"Rev": "06bc6e01f4baf4ee783ffcd23abfcb0b0f9dfada"
+		},
+		{
+			"ImportPath": "github.com/prometheus/client_model/go",
+			"Comment": "model-0.0.2-16-g99fa1f4",
+			"Rev": "99fa1f4be8e564e8a6b613da7fa6f46c9edafc6c"
+		},
+		{
+			"ImportPath": "github.com/prometheus/common/expfmt",
+			"Rev": "89604d197083d4781071d3c65855d24ecfb0a563"
+		},
+		{
+			"ImportPath": "github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg",
+			"Rev": "89604d197083d4781071d3c65855d24ecfb0a563"
+		},
+		{
+			"ImportPath": "github.com/prometheus/common/model",
+			"Rev": "89604d197083d4781071d3c65855d24ecfb0a563"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs",
+			"Rev": "85fadb6e89903ef7cca6f6a804474cd5ea85b6e1"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs/internal/util",
+			"Rev": "85fadb6e89903ef7cca6f6a804474cd5ea85b6e1"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs/nfsd",
+			"Rev": "85fadb6e89903ef7cca6f6a804474cd5ea85b6e1"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs/xfs",
+			"Rev": "85fadb6e89903ef7cca6f6a804474cd5ea85b6e1"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/pbkdf2",
+			"Rev": "3d37316aaa6bd9929127ac9a527abf408178ea7b"
+		},
+		{
+			"ImportPath": "golang.org/x/text/internal/tag",
+			"Rev": "e19ae1496984b1c655b8044a65c0300a3c878dd3"
+		},
+		{
+			"ImportPath": "golang.org/x/text/language",
+			"Rev": "e19ae1496984b1c655b8044a65c0300a3c878dd3"
+		},
+		{
+			"ImportPath": "gopkg.in/bufio.v1",
+			"Comment": "v1",
+			"Rev": "567b2bfa514e796916c4747494d6ff5132a1dfce"
+		},
+		{
+			"ImportPath": "gopkg.in/ini.v1",
+			"Comment": "v1.32.0",
+			"Rev": "32e4c1e6bc4e7d0d8451aa6b75200d19e37a536a"
+		},
+		{
+			"ImportPath": "gopkg.in/macaron.v1",
+			"Comment": "v1.2.4",
+			"Rev": "75f2e9b42e99652f0d82b28ccb73648f44615faa"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/json",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v2",
+			"Comment": "v2.3.2",
+			"Rev": "e6179049628164864e6e84e973cfb56335748dea"
+		}
+	]
+}
