@@ -72,7 +72,7 @@ func UpdateDealMongo(DealToUpdate model.Deal, dealID string) (err error) {
 	updateDeal := bson.M{"$set": DealToUpdate}
 	err = collection.Update(queryDeal, updateDeal)
 	if err != nil {
-		fmt.Printf("[repo.CreateNewUserMongo] Erro ao atualizar o usuarios no MongoDB")
+		fmt.Printf("[repo.CreateNewUserMongo] Erro ao atualizar o deals no MongoDB")
 	}
 	return
 }

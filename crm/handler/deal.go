@@ -44,10 +44,13 @@ func UpdateDeal(ctx *contx.Context, req *http.Request) {
 	if err != nil {
 		fmt.Printf("[user.NewDeal] Unmarshal nao funcionou")
 	}
-	err = repo.CreateNewDealMongo(deal)
+
+	id := ctx.Params(":id")
+	err = repo.UpdateDealMongo(deal, id)
 	if err != nil {
-		fmt.Printf("[user.NewDeal] Nao foi possivel adicionar um novo deal no sistema")
+		fmt.Printf("[user.UpdateDeal] Erro ao tentar atualizar o deal")
 	}
+	fmt.Print("Deal atualizado com sucesso")
 }
 
 //NewDeal Add new deal from database
