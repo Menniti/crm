@@ -8,6 +8,6 @@ type Client struct {
 	ID        bson.ObjectId `json:"id" bson:"_id,omitempty"`
 	Email     string        `json:"email" bson:"email"`
 	Phone     string        `json:"phone" bson:"phone"`
-	OwnerID   bson.ObjectId `json:"ownerID" bson:"_id,omitempty"`
-	CompanyID bson.ObjectId `json:"companyID" bson:"_id,omitempty"`
+	OwnerID   bson.ObjectId `json:"ownerID" bson:"ownerID,omitempty"`
+	CompanyID bson.ObjectId `json:"companyID" bson:"companyID,omitempty"`
 }
